@@ -22,7 +22,7 @@ topMenuEl.style.backgroundColor = getComputedStyle(document.documentElement).get
 
 
 
-// Iterate over menuLinks array
+   // Iterate over menuLinks array
 for (var i = 0; i < menuLinks.length; i++) {
   // Create new anchor element
   var linkEl = document.createElement('a');
@@ -37,3 +37,5 @@ for (var i = 0; i < menuLinks.length; i++) {
   topMenuEl.appendChild(linkEl);
 }
 
+
+ 
